@@ -64,7 +64,7 @@ public class GeneMinersApplication {
         genes.add("RHO");
         if (genes.contains(geneName)) {
             Gene gene = new Gene();
-            return "Gene object created.";
+            return "Gene found.";
         } else {
             return "Gene not found.";
         }

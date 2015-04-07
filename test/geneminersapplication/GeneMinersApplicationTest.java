@@ -72,7 +72,7 @@ public class GeneMinersApplicationTest {
         System.out.println("searchGene");
         GeneMinersApplication instance = new GeneMinersApplication();
         // Test if the gene is found.
-        String expResult = "Gene object created.";
+        String expResult = "Gene found.";
         String result = instance.searchGene("APC");
         assertEquals(expResult, result);
         // Test if the gene is not found.
