@@ -76,6 +76,9 @@ public class GeneMinersApplicationTest {
         String result = instance.searchGene("APC");
         assertEquals(expResult, result);
         // Test if the gene is not found.
+        expResult = "Gene not found.";
+        result = instance.searchGene("GENE1");
+        assertEquals(expResult, result);
     }
     /**
      * Test of loadExpressionDataset method, of class GeneMinersApplication.
